@@ -1,0 +1,1 @@
+& "C:/Program Files/PuTTY/putty.exe" -serial -sercfg 230400 "\\.\COM9"

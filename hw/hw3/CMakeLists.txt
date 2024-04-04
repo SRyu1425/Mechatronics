@@ -1,3 +1,3 @@
 if (NOT PICO_NO_HARDWARE)
-    add_subdirectory(blink)
+    add_subdirectory(print)
 endif ()
