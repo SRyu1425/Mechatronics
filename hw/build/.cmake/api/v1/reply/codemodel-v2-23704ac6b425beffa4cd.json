@@ -785,8 +785,8 @@
 					"source" : "C:/Program Files/Raspberry Pi/Pico SDK v1.5.1/pico-sdk/src/rp2_common/tinyusb",
 					"targetIndexes" : 
 					[
-						6,
-						7
+						7,
+						8
 					]
 				},
 				{
@@ -1049,7 +1049,8 @@
 					"build" : "hw3",
 					"childIndexes" : 
 					[
-						84
+						84,
+						85
 					],
 					"jsonFile" : "directory-hw3-Debug-45a4408e01b345216fab.json",
 					"minimumCMakeVersion" : 
@@ -1072,6 +1073,21 @@
 					"source" : "hw3/print",
 					"targetIndexes" : 
 					[
+						6
+					]
+				},
+				{
+					"build" : "hw3/io_adc",
+					"jsonFile" : "directory-hw3.io_adc-Debug-f84ef5f38391f2668e95.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 83,
+					"projectIndex" : 0,
+					"source" : "hw3/io_adc",
+					"targetIndexes" : 
+					[
 						5
 					]
 				}
@@ -1090,13 +1106,15 @@
 						81,
 						82,
 						83,
-						84
+						84,
+						85
 					],
 					"name" : "hw",
 					"targetIndexes" : 
 					[
 						0,
-						5
+						5,
+						6
 					]
 				},
 				{
@@ -1191,8 +1209,8 @@
 						2,
 						3,
 						4,
-						6,
-						7
+						7,
+						8
 					]
 				}
 			],
@@ -1232,6 +1250,13 @@
 					"jsonFile" : "target-cyw43_driver_picow_cyw43_bus_pio_spi_pio_h-Debug-208d5fbd8885f908aba0.json",
 					"name" : "cyw43_driver_picow_cyw43_bus_pio_spi_pio_h",
 					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 85,
+					"id" : "io_adc::@4666ccfb22ec9947659e",
+					"jsonFile" : "target-io_adc-Debug-1fd04cff9eed3d345c94.json",
+					"name" : "io_adc",
+					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 84,

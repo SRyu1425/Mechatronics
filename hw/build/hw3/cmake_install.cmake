@@ -40,6 +40,7 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("C:/Users/SRyu0/me433/hw/build/hw3/print/cmake_install.cmake")
+  include("C:/Users/SRyu0/me433/hw/build/hw3/io_adc/cmake_install.cmake")
 
 endif()
 
