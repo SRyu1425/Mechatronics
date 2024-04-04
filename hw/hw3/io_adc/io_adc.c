@@ -40,7 +40,7 @@ int main() {
 
         for (int i = 1; i<=samp; i++){
             uint16_t result = adc_read(); //read adc count
-            double volt = result * (3.3 / 4096); //convert to volts
+            double volt = result * (3.3 / 4095); //convert to volts
             printf("adc sample #%d = %.3f volts\r\n",i, volt); //display
             sleep_ms(10); //wait 10ms (100Hz sampling rate)
         }
