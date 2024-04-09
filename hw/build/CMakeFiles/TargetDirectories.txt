@@ -179,3 +179,8 @@ C:/Users/SRyu0/me433/hw/build/hw3/print/CMakeFiles/rebuild_cache.dir
 C:/Users/SRyu0/me433/hw/build/hw3/io_adc/CMakeFiles/io_adc.dir
 C:/Users/SRyu0/me433/hw/build/hw3/io_adc/CMakeFiles/edit_cache.dir
 C:/Users/SRyu0/me433/hw/build/hw3/io_adc/CMakeFiles/rebuild_cache.dir
+C:/Users/SRyu0/me433/hw/build/hw4/CMakeFiles/edit_cache.dir
+C:/Users/SRyu0/me433/hw/build/hw4/CMakeFiles/rebuild_cache.dir
+C:/Users/SRyu0/me433/hw/build/hw4/spi/CMakeFiles/spi.dir
+C:/Users/SRyu0/me433/hw/build/hw4/spi/CMakeFiles/edit_cache.dir
+C:/Users/SRyu0/me433/hw/build/hw4/spi/CMakeFiles/rebuild_cache.dir

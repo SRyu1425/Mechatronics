@@ -430,8 +430,8 @@ Disassembly of section .text:
 100003f4:	1000cea8 	.word	0x1000cea8
 100003f8:	1000ceac 	.word	0x1000ceac
 100003fc:	4004e000 	.word	0x4004e000
-10000400:	66666666 	.word	0x66666666
-10000404:	3f4a6666 	.word	0x3f4a6666
+10000400:	e734d9b4 	.word	0xe734d9b4
+10000404:	3f4a680c 	.word	0x3f4a680c
 10000408:	1000ceb0 	.word	0x1000ceb0
 
 1000040c <gpio_set_function>:
