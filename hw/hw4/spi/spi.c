@@ -113,7 +113,7 @@ int main() {
             write_register(0, data); //channel a
 
             data = calc_data(TriWaveform[i]);
-            write_register(1, data); //channel a
+            write_register(1, data); //channel b
 
             sleep_ms(5); //200 data points in 1 sec = 1/200 = 5 ms
         }
