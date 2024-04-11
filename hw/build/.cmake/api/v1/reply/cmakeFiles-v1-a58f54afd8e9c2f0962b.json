@@ -659,6 +659,20 @@
 		{
 			"isExternal" : true,
 			"path" : "C:/Program Files/Raspberry Pi/Pico SDK v1.5.1/pico-sdk-tools/pico-sdk-tools-config.cmake"
+		},
+		{
+			"path" : "hw5/CMakeLists.txt"
+		},
+		{
+			"path" : "hw5/i2c/CMakeLists.txt"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Program Files/Raspberry Pi/Pico SDK v1.5.1/pico-sdk-tools/pico-sdk-tools-config-version.cmake"
+		},
+		{
+			"isExternal" : true,
+			"path" : "C:/Program Files/Raspberry Pi/Pico SDK v1.5.1/pico-sdk-tools/pico-sdk-tools-config.cmake"
 		}
 	],
 	"kind" : "cmakeFiles",

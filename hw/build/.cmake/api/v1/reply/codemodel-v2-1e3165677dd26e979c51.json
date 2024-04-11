@@ -11,7 +11,8 @@
 						1,
 						81,
 						83,
-						86
+						86,
+						88
 					],
 					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
@@ -786,8 +787,8 @@
 					"source" : "C:/Program Files/Raspberry Pi/Pico SDK v1.5.1/pico-sdk/src/rp2_common/tinyusb",
 					"targetIndexes" : 
 					[
-						8,
-						9
+						9,
+						10
 					]
 				},
 				{
@@ -1074,7 +1075,7 @@
 					"source" : "hw3/print",
 					"targetIndexes" : 
 					[
-						6
+						7
 					]
 				},
 				{
@@ -1089,7 +1090,7 @@
 					"source" : "hw3/io_adc",
 					"targetIndexes" : 
 					[
-						5
+						6
 					]
 				},
 				{
@@ -1119,7 +1120,37 @@
 					"source" : "hw4/spi",
 					"targetIndexes" : 
 					[
-						7
+						8
+					]
+				},
+				{
+					"build" : "hw5",
+					"childIndexes" : 
+					[
+						89
+					],
+					"jsonFile" : "directory-hw5-Debug-5055ffb2efa1ed5bb1fe.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "hw5"
+				},
+				{
+					"build" : "hw5/i2c",
+					"jsonFile" : "directory-hw5.i2c-Debug-cd4a3b697ff88879f3cf.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 88,
+					"projectIndex" : 0,
+					"source" : "hw5/i2c",
+					"targetIndexes" : 
+					[
+						5
 					]
 				}
 			],
@@ -1140,7 +1171,9 @@
 						84,
 						85,
 						86,
-						87
+						87,
+						88,
+						89
 					],
 					"name" : "hw",
 					"targetIndexes" : 
@@ -1148,7 +1181,8 @@
 						0,
 						5,
 						6,
-						7
+						7,
+						8
 					]
 				},
 				{
@@ -1243,8 +1277,8 @@
 						2,
 						3,
 						4,
-						8,
-						9
+						9,
+						10
 					]
 				}
 			],
@@ -1284,6 +1318,13 @@
 					"jsonFile" : "target-cyw43_driver_picow_cyw43_bus_pio_spi_pio_h-Debug-208d5fbd8885f908aba0.json",
 					"name" : "cyw43_driver_picow_cyw43_bus_pio_spi_pio_h",
 					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 89,
+					"id" : "i2c::@2aaacf23c976da9d5314",
+					"jsonFile" : "target-i2c-Debug-69b2b58a94cc92f4d726.json",
+					"name" : "i2c",
+					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 85,
