@@ -189,3 +189,8 @@ C:/Users/SRyu0/me433/hw/build/hw5/CMakeFiles/rebuild_cache.dir
 C:/Users/SRyu0/me433/hw/build/hw5/i2c/CMakeFiles/i2c.dir
 C:/Users/SRyu0/me433/hw/build/hw5/i2c/CMakeFiles/edit_cache.dir
 C:/Users/SRyu0/me433/hw/build/hw5/i2c/CMakeFiles/rebuild_cache.dir
+C:/Users/SRyu0/me433/hw/build/hw6/CMakeFiles/edit_cache.dir
+C:/Users/SRyu0/me433/hw/build/hw6/CMakeFiles/rebuild_cache.dir
+C:/Users/SRyu0/me433/hw/build/hw6/oled/CMakeFiles/oled.dir
+C:/Users/SRyu0/me433/hw/build/hw6/oled/CMakeFiles/edit_cache.dir
+C:/Users/SRyu0/me433/hw/build/hw6/oled/CMakeFiles/rebuild_cache.dir
