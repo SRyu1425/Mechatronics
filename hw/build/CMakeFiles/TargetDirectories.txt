@@ -194,3 +194,8 @@ C:/Users/SRyu0/me433/hw/build/hw6/CMakeFiles/rebuild_cache.dir
 C:/Users/SRyu0/me433/hw/build/hw6/oled/CMakeFiles/oled.dir
 C:/Users/SRyu0/me433/hw/build/hw6/oled/CMakeFiles/edit_cache.dir
 C:/Users/SRyu0/me433/hw/build/hw6/oled/CMakeFiles/rebuild_cache.dir
+C:/Users/SRyu0/me433/hw/build/hw7/CMakeFiles/edit_cache.dir
+C:/Users/SRyu0/me433/hw/build/hw7/CMakeFiles/rebuild_cache.dir
+C:/Users/SRyu0/me433/hw/build/hw7/uart/CMakeFiles/uart.dir
+C:/Users/SRyu0/me433/hw/build/hw7/uart/CMakeFiles/edit_cache.dir
+C:/Users/SRyu0/me433/hw/build/hw7/uart/CMakeFiles/rebuild_cache.dir

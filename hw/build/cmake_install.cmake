@@ -45,6 +45,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("C:/Users/SRyu0/me433/hw/build/hw4/cmake_install.cmake")
   include("C:/Users/SRyu0/me433/hw/build/hw5/cmake_install.cmake")
   include("C:/Users/SRyu0/me433/hw/build/hw6/cmake_install.cmake")
+  include("C:/Users/SRyu0/me433/hw/build/hw7/cmake_install.cmake")
 
 endif()
 
