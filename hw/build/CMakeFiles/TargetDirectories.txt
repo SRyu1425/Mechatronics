@@ -199,3 +199,8 @@ C:/Users/SRyu0/me433/hw/build/hw7/CMakeFiles/rebuild_cache.dir
 C:/Users/SRyu0/me433/hw/build/hw7/uart/CMakeFiles/uart.dir
 C:/Users/SRyu0/me433/hw/build/hw7/uart/CMakeFiles/edit_cache.dir
 C:/Users/SRyu0/me433/hw/build/hw7/uart/CMakeFiles/rebuild_cache.dir
+C:/Users/SRyu0/me433/hw/build/hw8/CMakeFiles/edit_cache.dir
+C:/Users/SRyu0/me433/hw/build/hw8/CMakeFiles/rebuild_cache.dir
+C:/Users/SRyu0/me433/hw/build/hw8/zero/CMakeFiles/zero.dir
+C:/Users/SRyu0/me433/hw/build/hw8/zero/CMakeFiles/edit_cache.dir
+C:/Users/SRyu0/me433/hw/build/hw8/zero/CMakeFiles/rebuild_cache.dir

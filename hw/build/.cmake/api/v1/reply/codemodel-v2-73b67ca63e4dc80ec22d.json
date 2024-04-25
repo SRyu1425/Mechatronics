@@ -14,7 +14,8 @@
 						86,
 						88,
 						90,
-						92
+						92,
+						94
 					],
 					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
@@ -1214,6 +1215,36 @@
 					[
 						12
 					]
+				},
+				{
+					"build" : "hw8",
+					"childIndexes" : 
+					[
+						95
+					],
+					"jsonFile" : "directory-hw8-Debug-b541356da90149ad22cf.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "hw8"
+				},
+				{
+					"build" : "hw8/zero",
+					"jsonFile" : "directory-hw8.zero-Debug-c61bb06b994dc913b3db.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 94,
+					"projectIndex" : 0,
+					"source" : "hw8/zero",
+					"targetIndexes" : 
+					[
+						13
+					]
 				}
 			],
 			"name" : "Debug",
@@ -1239,7 +1270,9 @@
 						90,
 						91,
 						92,
-						93
+						93,
+						94,
+						95
 					],
 					"name" : "hw",
 					"targetIndexes" : 
@@ -1250,7 +1283,8 @@
 						7,
 						8,
 						9,
-						12
+						12,
+						13
 					]
 				},
 				{
@@ -1441,6 +1475,13 @@
 					"id" : "uart::@b99ed6b521a45f50086d",
 					"jsonFile" : "target-uart-Debug-df8ddc818a99721fdc97.json",
 					"name" : "uart",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 95,
+					"id" : "zero::@a504a9b1ff18c574b973",
+					"jsonFile" : "target-zero-Debug-113a23d6320d8b5d9dad.json",
+					"name" : "zero",
 					"projectIndex" : 0
 				}
 			]
