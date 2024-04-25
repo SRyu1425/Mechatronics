@@ -2,8 +2,6 @@
 #include "pico/binary_info.h"
 #include "pico/stdlib.h"
 #include "hardware/i2c.h"
-#include "ssd1306.h"
-#include "font.h"
 #include "hardware/uart.h"
 #include "hardware/irq.h"
 

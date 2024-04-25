@@ -1,6 +1,5 @@
 add_executable(zero
         zero.c
-        ssd1306.c
         )
 
 # pull in common dependencies
