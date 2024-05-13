@@ -209,3 +209,11 @@ C:/Users/SRyu0/me433/hw/build/hw12/CMakeFiles/rebuild_cache.dir
 C:/Users/SRyu0/me433/hw/build/hw12/servo/CMakeFiles/servo.dir
 C:/Users/SRyu0/me433/hw/build/hw12/servo/CMakeFiles/edit_cache.dir
 C:/Users/SRyu0/me433/hw/build/hw12/servo/CMakeFiles/rebuild_cache.dir
+C:/Users/SRyu0/me433/hw/build/hw13/CMakeFiles/edit_cache.dir
+C:/Users/SRyu0/me433/hw/build/hw13/CMakeFiles/rebuild_cache.dir
+C:/Users/SRyu0/me433/hw/build/hw13/mouse/CMakeFiles/mouse.dir
+C:/Users/SRyu0/me433/hw/build/hw13/mouse/CMakeFiles/edit_cache.dir
+C:/Users/SRyu0/me433/hw/build/hw13/mouse/CMakeFiles/rebuild_cache.dir
+C:/Users/SRyu0/me433/hw/build/hw13/usb/CMakeFiles/usb.dir
+C:/Users/SRyu0/me433/hw/build/hw13/usb/CMakeFiles/edit_cache.dir
+C:/Users/SRyu0/me433/hw/build/hw13/usb/CMakeFiles/rebuild_cache.dir

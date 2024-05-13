@@ -35,6 +35,7 @@
     "font.h": "c",
     "system_error": "c",
     "stdio.h": "c",
-    "binary_info.h": "c"
+    "binary_info.h": "c",
+    "stdio_usb.h": "c"
   }
 }
