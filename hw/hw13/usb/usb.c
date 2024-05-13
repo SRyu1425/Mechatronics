@@ -96,17 +96,17 @@ void mpu6050_init() {
     // send register number followed by its corresponding value
     //write 0x00 to the PWR_MGMT_1 register to turn the chip on
     buf[0] = PWR_MGMT_1;
-    buf[1] = 0x00; //GP7 output, rest are inputs
+    buf[1] = 0x00; 
     i2c_write_blocking(i2c_default, ADDR, buf, 2, false); //function has start, stop bit included. however will be blocked if we don't get ack bit back
 
     //To enable the accelerometer, write to the ACCEL_CONFIG register. Set the sensitivity to plus minus 2g
     buf[0] = ACCEL_CONFIG;
-    buf[1] = 0x00; //GP7 output, rest are inputs
+    buf[1] = 0x00; 
     i2c_write_blocking(i2c_default, ADDR, buf, 2, false);
 
-    //To enable the accelerometer, write to the ACCEL_CONFIG register. Set the sensitivity to plus minus 2g
+    //To enable the accelerometer, write to the ACCEL_CONFIG register. Set the sensitivity to plus minus 2000dps
     buf[0] = GYRO_CONFIG;
-    buf[1] = 0x18; //GP7 output, rest are inputs
+    buf[1] = 0x18; 
     i2c_write_blocking(i2c_default, ADDR, buf, 2, false);
 
 
@@ -211,9 +211,9 @@ int main(void)
   while (1)
   {
     tud_task(); // tinyusb device task
-    led_blinking_task();
+    led_blinking_task(); //check blinking light speed to see status
 
-    hid_task();
+    hid_task(); //call task
     
   }
 }
@@ -259,7 +259,6 @@ static void send_hid_report(uint8_t report_id, uint32_t btn)
   if ( !tud_hid_ready() ) return;
 
 
-
   switch(report_id)
   {
     case REPORT_ID_KEYBOARD:
@@ -285,12 +284,9 @@ static void send_hid_report(uint8_t report_id, uint32_t btn)
 
     case REPORT_ID_MOUSE:
     {
-      // gpio_put(16, 1);
-      // sleep_ms(150);
-      // gpio_put(16, 0);
-      // sleep_ms(150);
+     
 
-
+      //read from mpu6050
       int8_t deltax;
       int8_t deltay;
       int16_t acceleration[3], gyro[3], temp;
@@ -298,6 +294,7 @@ static void send_hid_report(uint8_t report_id, uint32_t btn)
       float x = gyro[0] * 0.007630; 
       float y = gyro[1] * 0.007630;
 
+      //check the x value and assign to delta y based on range.
       if (x > -1 && x < 1){
         deltay = 0;
       } else if (x < -4){
@@ -340,11 +337,9 @@ static void send_hid_report(uint8_t report_id, uint32_t btn)
       }
 
 
-      // no button, right + down, no scroll, no pan
+      // no button, +x = right, +y = down. 
       tud_hid_mouse_report(REPORT_ID_MOUSE, 0x00, deltax, deltay, 0, 0);
 
-      //print to screen for debugginn
-      printf("Gyro\n X = %.2f\n Y = %.2f\n", deltax, deltay); // units of degrees per sec
 
     }
     break;
