@@ -217,3 +217,8 @@ C:/Users/SRyu0/me433/hw/build/hw13/mouse/CMakeFiles/rebuild_cache.dir
 C:/Users/SRyu0/me433/hw/build/hw13/usb/CMakeFiles/usb.dir
 C:/Users/SRyu0/me433/hw/build/hw13/usb/CMakeFiles/edit_cache.dir
 C:/Users/SRyu0/me433/hw/build/hw13/usb/CMakeFiles/rebuild_cache.dir
+C:/Users/SRyu0/me433/hw/build/Robot_Proj/CMakeFiles/edit_cache.dir
+C:/Users/SRyu0/me433/hw/build/Robot_Proj/CMakeFiles/rebuild_cache.dir
+C:/Users/SRyu0/me433/hw/build/Robot_Proj/motor/CMakeFiles/motor.dir
+C:/Users/SRyu0/me433/hw/build/Robot_Proj/motor/CMakeFiles/edit_cache.dir
+C:/Users/SRyu0/me433/hw/build/Robot_Proj/motor/CMakeFiles/rebuild_cache.dir
