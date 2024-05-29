@@ -36,6 +36,8 @@
     "system_error": "c",
     "stdio.h": "c",
     "binary_info.h": "c",
-    "stdio_usb.h": "c"
+    "stdio_usb.h": "c",
+    "irq.h": "c",
+    "pwm.h": "c"
   }
 }

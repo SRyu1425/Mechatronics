@@ -54,7 +54,13 @@ int main(){
         //user input over usb
         int line;
         printf("Location of path (enter num 0 to 100): ");
-        scanf("%d", &line);
+        int ret = scanf("%d", &line);
+        
+        // Check if the input was successful
+        if (ret != 1) {
+            printf("Error reading input.\n");
+            continue;
+        }
         printf("\r\n");
 
         // Ensure the input is within the expected range
@@ -83,7 +89,6 @@ int main(){
             duty2 = max_speed - kp * (abs(err) - tolerance); //(err - tolerance?) or just err
         }
 
-
         //duty cycle cannot be negative
         if (duty1 < 0){
             duty1 = 0;
@@ -97,10 +102,7 @@ int main(){
         gpio_put(DIR_PIN1, 0); // direction pin
         pwm_set_gpio_level(pwmPin2, (int) (duty2 * w2)); // set the duty cycle to inputted number (between 0 to wrap)
         gpio_put(DIR_PIN2, 0); // direction pin
+
+        sleep_ms(100); // Add a delay to prevent overwhelming the serial communication
     }
-    
-    
-
-
-
 }
