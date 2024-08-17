@@ -1,3 +1,4 @@
 
 /ignore
-/pico/.vscode
+/pico_sdk_import.cmake
+
